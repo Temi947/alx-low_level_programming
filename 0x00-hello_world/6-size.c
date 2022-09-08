@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	Size of a char: 1 byte(s)
-	Size of an int: 4 byte(s)
-	Size of a long int: 8 byte(s)
-	Size of a long long int: 8 byte(s)
-	Size of a float: 4 byte(s)
+	char a; 1 byte(s)
+	int b; 4 byte(s)
+	long int c; 8 byte(s)
+	long long int d; 8 byte(s)
+	float e; 4 byte(s)
 
 
 
