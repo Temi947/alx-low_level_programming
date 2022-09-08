@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char a; 1 byte(s)
-	int b; 4 byte(s)
-	long int c; 8 byte(s)
-	long long int d; 8 byte(s)
-	float e; 4 byte(s)
+	char a; 
+	int b; 
+	long int c;
+	long long int d;
+	float e;
 
 
 
