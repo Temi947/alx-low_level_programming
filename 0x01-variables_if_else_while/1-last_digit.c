@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Last digit
- * Description: Print the last digit of the number stored
+ * main - main block
+ * Description: Print statements based on the last digit of the random number.
  * Return: 0
  */
 int main(void)
