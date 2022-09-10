@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* printing the alphabet */
+/* main - printing the alphabet
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	char c;
