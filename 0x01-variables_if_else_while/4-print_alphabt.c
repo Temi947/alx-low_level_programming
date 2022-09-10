@@ -1,19 +1,21 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description: Print the alphabet on a line omitting e and q
- * using putchar only twice
- * Return: 0
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
  */
 int main(void)
 {
-	char alpha = 'a';
-	while (alpha <= 'z')
+	char ch = 'a';
+
+	while (ch <= 'z')
 	{
-		putchar(alpha);
-		alpha++;
-		if (alpha == 'e' || alpha == 'q')
-			alpha++;
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		ch++;
 	}
 	putchar('\n');
 	return (0);
