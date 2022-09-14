@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet -  use only user defined variables to create output
+ * print_alphabet - Entry point
  * Return: always success
  */
 
