@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point
- * Return: Always 0.
+ * print_alphabet -  use only user defined variables to create output
+ *
+ * Description: Write program to print "a to z" using _putchar
+ * Return: always success
  */
-void print_alphabet(void)
+int main(void)
 {
-	c = 'a';
+	char c = 'a';
 
 	while (c <= 'z')
 	{
+
 		_putchar(c);
 		c++;
-
 	}
 	_putchar('\n');
 
