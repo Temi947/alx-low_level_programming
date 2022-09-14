@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet_x10 - print alphabets 10 times
- * 
  * Return: void
  */
 
@@ -16,6 +15,7 @@ void print_alphabet_x10(void)
 		c = 'a';
 		while (c <= 'z')
 		{
+
 			_putchar(c);
 			c++;
 		}
