@@ -13,7 +13,7 @@ int is_prime(unsigned int n, unsigned int c)
 		if (n == c)
 			return (1);
 		else
-			(0);
+			return (0);
 	}
 	return (0 + is_prime(n, c + 1));
 }
