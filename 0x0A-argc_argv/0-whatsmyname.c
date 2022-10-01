@@ -1,20 +1,16 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - prints file name
- * @argc: first parameter
- * @argv: second parameter
- *
- * Description: a program that prints its name
- * Return: Always(0) Success
+ * main - Prints the name of the program
+ * @argc: Number of command line arguments
+ * @argv: Array name
+ * Return: 0
  */
 
+int main(int argc, char *argv[])
 {
-	int main(int argc, char **argv)
-		while (argc--)
-		{
-			printf("%s\n", *argv++);
-		}
+	printf("%s\n", argv[argc * 0]);
+
 	return (0);
 }
